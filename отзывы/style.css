@@ -3,6 +3,7 @@
     padding: 0;
 }
 body{
+ height: 100vh;
     background:linear-gradient( rgb(182, 20, 182),rgb(40, 191, 218), rgb(182, 20, 182) );
 }
 
@@ -61,4 +62,7 @@ img{
 }
 h1{
     color: aliceblue;
+}
+main{
+    height: 87vh;
 }

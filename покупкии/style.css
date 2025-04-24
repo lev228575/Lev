@@ -4,6 +4,7 @@
 }
 body{
     background:linear-gradient( rgb(182, 20, 182),rgb(40, 191, 218), rgb(182, 20, 182) );
+    height: 100vh;
 }
 
 header {
@@ -51,14 +52,19 @@ a{
 footer{
     background: black;
     color: antiquewhite;
+   
     height: 40px;
     display: flex;
     justify-content: space-evenly;
+    
 }
 img{
     border-radius: 16px;
     border-color: black;
 }
-h1{
-    color: aliceblue;
+.pon{
+    height: 87vh;
+}
+h3{
+    color: antiquewhite;
 }
