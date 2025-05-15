@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: cursive;
 }
 body{
     background:linear-gradient( rgb(182, 20, 182),rgb(40, 191, 218), rgb(182, 20, 182) );
@@ -67,7 +68,4 @@ img{
 }
 h3{
     color: antiquewhite;
-}
-h5{
-    color:  rgb(216, 195, 195);
 }

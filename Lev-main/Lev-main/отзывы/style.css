@@ -1,15 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: cursive;
 }
 
 body {
     height: 100vh;
     background: linear-gradient(rgb(182, 20, 182), rgb(40, 191, 218), rgb(182, 20, 182));
-    overflow-x: hidden;
-
 }
 
 header {
@@ -77,36 +73,17 @@ main {
     height: 90vh;
 }
 
-.feedback {
+.reviews {
     color: aliceblue;
-    align-items: center;
+    padding: 10px;
+    height: 100px;
+    max-width: 600px;
+    margin: 0 auto;
+    width: 90%;
 }
-@media screen and (max-width: 440px) {
-    .lloll {
-        grid-template-columns: repeat(1, 1fr);
-    }
 
-    .lol, .llol, .loll{
-        all: unset;
-        cursor: pointer;
-
-
-    }
-
-    .lol:hover, .llol:hover, .loll:hover{
-        color: rgb(182, 20, 182);
-    }
-
-    header{
-        height: max-content;
-        text-align: center;
-    }
-
-    header h2{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-
+textarea {
+    height: 50px;
+    block-size: ;
+    width: 250px;
 }

@@ -1,15 +1,9 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: cursive;
 }
-
-body {
-    height: 100vh;
-    background: linear-gradient(rgb(182, 20, 182), rgb(40, 191, 218), rgb(182, 20, 182));
-    overflow-x: hidden;
-
+body{
+    background:linear-gradient( rgb(182, 20, 182),rgb(40, 191, 218), rgb(182, 20, 182) );
 }
 
 header {
@@ -50,59 +44,53 @@ header a {
     text-decoration: none;
     border-color: black;
 }
-
-a {
+a{
     text-decoration: none;
     color: aliceblue;
 }
-
-footer {
+footer{
     background: black;
     color: antiquewhite;
     height: 40px;
     display: flex;
     justify-content: space-evenly;
 }
-
-img {
+img{
     border-radius: 16px;
     border-color: black;
 }
-
-h1 {
+h1{
     color: aliceblue;
 }
-
-main {
-    height: 90vh;
-}
-
-.feedback {
-    color: aliceblue;
-    align-items: center;
+h5{
+    color: rgb(235, 224, 224);
 }
 @media screen and (max-width: 440px) {
     .lloll {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .lol, .llol, .loll{
+    .lol,
+    .llol,
+    .loll {
         all: unset;
         cursor: pointer;
 
 
     }
 
-    .lol:hover, .llol:hover, .loll:hover{
+    .lol:hover,
+    .llol:hover,
+    .loll:hover {
         color: rgb(182, 20, 182);
     }
 
-    header{
+    header {
         height: max-content;
         text-align: center;
     }
 
-    header h2{
+    header h2 {
         display: flex;
         flex-direction: column;
         align-items: center;
